@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: sans-serif;
+    position: fixed;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #112A46, #ACC8E5);
+
+}
+
+.innner-box {
+    width: 390px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 29px 80px;
+    background-color: #ACC8E5;
+    border-radius: 10px;
+    box-shadow: 2px #0b3f63;
+}
+
+.singup-body {
+    margin: 10px 0px;
+
+}
+
+.btn {
+    padding: 10px;
+    text-align: center;
+}
+
+.singup-body p {
+    margin: 5px 0;
+    padding: 3px;
+}
+
+.singup-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(150, 179, 177);
+    border-radius: 20px;
+}
+
+.singup-body p input[type="submit"] {
+    background-color: #296d9b;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.singup-body p input[type="submit"]:hover {
+    background-color: #0b3f63;
+}
+
+.singup-footer {
+    color: #666565;
+    text-align: center;
+}
+
+.singup-footer a {
+    color: #0b3f63;
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #ffffffaa, #ffffffff);
+
+}
+
+
+/*****************Login Page****************** */
+ 
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+#btn{
+    padding: 20px;
+}
+
+#frpas{
+     text-align: right;
+     font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.frpas{
+    color: #555;
+}
